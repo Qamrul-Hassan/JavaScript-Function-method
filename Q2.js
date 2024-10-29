@@ -10,3 +10,10 @@ let products = [
 
 let expensiveProducts = products.filter(product => product.price > 1000);
 console.log(expensiveProducts);
+
+/*Filter out only even numbers from an array
+Use the filter() method to keep only even numbers in a new array:*/
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const evenNumbers = numbers.filter(number => number % 2 ===0);
+console.log(evenNumbers);
